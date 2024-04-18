@@ -1,6 +1,6 @@
 class Message {
    // Write code here!
-   constructor(name, commands) {
+   constructor(name, commands = []) {
       if (!name) {
          throw Error("Name required.")
       };
